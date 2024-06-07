@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+
+<head th:fragment="common-head">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=0.8">
+  <title>Hospital-Mng</title>
+  <link rel="stylesheet" th:href="@{/styles/bootstrap.min.css}">
+  <link rel="stylesheet" th:href="@{/styles/shared2.css}">
+  <link rel="stylesheet" th:href="@{/styles/scrollbar.css}">
+  <link rel="stylesheet" th:href="@{/styles/fontawesome-free-6.5.2-web/css/all.min.css}">
+
+  <style>
+<!--   </style> -->
+  <link rel="stylesheet" href="">
+</head>
+
+<body>
+<Header th:fragment="body-header">
+    <nav>
+      <h3>Hospital Admin</h3>
+      <ul>
+        <li class="current"><a href=""> Doctors</a></li>
+        <li><a href="patient.html">Patients</a></li>
+        <li><a href="">Reservations</a></li>
+      </ul>
+    </nav>
+    <hr>
+  </Header>
+</body>
+
+</html>
